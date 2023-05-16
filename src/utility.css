@@ -1,0 +1,4 @@
+.bg-vertical-line {
+  background: linear-gradient(90deg, #0000 calc(100% - 5px), #000 0);
+  background-size: calc((100% - 5 * 5px) / 6 + 5px) 100%;
+}

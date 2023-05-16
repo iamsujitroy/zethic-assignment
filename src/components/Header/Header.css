@@ -1,0 +1,86 @@
+.header__wrapper {
+  display: flex;
+  max-width: var(--max-width);
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 0 24px 0;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 119px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.header__right {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.header__dropdown {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #0d0d0d;
+  display: flex;
+  grid-gap: 2px;
+  cursor: pointer;
+}
+.small-triangle {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 20px;
+}
+.small-triangle::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header__dropdown__options {
+  display: none;
+}
+.header__nav {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  grid-gap: 45px;
+  margin-left: 35px;
+}
+.header__nav__link a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #0d0d0d;
+}
+.header__signin {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 2px 0;
+  padding-left: 34px;
+  border-left: 1px solid #858585;
+  margin-left: 34px;
+}
+.header__schedule-btn {
+  padding: 15px 23px;
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-left: 30px;
+}
