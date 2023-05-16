@@ -1,0 +1,11 @@
+.brands-wrapper{
+    max-width: var(--max-width);
+    margin: auto;
+    /* overflow-y: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 184px;
+    margin-top: 64px;
+    margin-bottom: 133px;
+}
