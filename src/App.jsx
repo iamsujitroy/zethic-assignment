@@ -13,8 +13,8 @@ function App() {
           <Hero />
           <Brands />
           <Explore />
-          <ScheduleCall />
           <Projects/>
+          <ScheduleCall />
         </Layout>
       </div>
     </BrowserRouter>

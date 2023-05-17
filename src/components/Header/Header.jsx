@@ -1,35 +1,35 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-const navlink = [
-  {
-    title: "Projects",
-    dropdown: true,
-    path: null,
-    options: [
-      {
-        title: "Project 1",
-        path: "/",
-      },
-      {
-        title: "Project 1",
-        path: "/",
-      },
-    ],
-  },
-  {
-    title: "Agents",
-    dropdown: false,
-    path: "/",
-    options: null,
-  },
-  {
-    title: "Amenities",
-    dropdown: false,
-    path: "/",
-    options: null,
-  },
-];
+// const navlink = [
+//   {
+//     title: "Projects",
+//     dropdown: true,
+//     path: null,
+//     options: [
+//       {
+//         title: "Project 1",
+//         path: "/",
+//       },
+//       {
+//         title: "Project 1",
+//         path: "/",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Agents",
+//     dropdown: false,
+//     path: "/",
+//     options: null,
+//   },
+//   {
+//     title: "Amenities",
+//     dropdown: false,
+//     path: "/",
+//     options: null,
+//   },
+// ];
 
 export default function Header() {
   return (
