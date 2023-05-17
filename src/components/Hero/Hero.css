@@ -2,7 +2,7 @@
   background: linear-gradient(
     90deg,
     #0000 calc(100% - 1px),
-    rgba(139, 139, 139, 0.55) 0
+    rgba(139, 139, 139, 0.25) 0
   );
   background-size: calc((100% - 6 * 5px + 9px) / 7) 100%;
   background-position: 100px 0, 197px 0, 260px 0, 260px 0, 260px 0, 344px 0;
