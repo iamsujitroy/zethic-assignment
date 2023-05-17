@@ -19,3 +19,7 @@ a{
   --primary-bg: #FAFAFA;
   --light-color: #FFEEE9;
 }
+
+*{
+  -webkit-appearance:none;
+}
