@@ -1,0 +1,63 @@
+.projects h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  color: var(--primary-color);
+  max-width: var(--max-width);
+  margin: auto;
+  margin-bottom: 73px;
+}
+.projects-tab {
+  max-width: var(--max-width);
+  margin: auto;
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects-tab-left {
+  display: flex;
+  grid-gap: 24px;
+}
+.projects-tab-left__btn {
+  font-weight: 400;
+  font-size: 17.9586px;
+  padding: 14px 22px;
+  border: 1px solid #7c7c7c;
+  border-radius: 30px;
+  cursor: default;
+}
+.projects-tab-left__btn--active{
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+}
+.projects-tab-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 13px;
+}
+.projects-prev-btn {
+  rotate: 180deg;
+  display: flex;
+  padding: 15px;
+  border: 1px solid #adaaaa;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.not-allowed{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+.projects-next-btn {
+  display: flex;
+  padding: 15px;
+  border: 1px solid #adaaaa;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.projects-container{
+    max-width: var(--max-width);
+    margin: auto;
+}

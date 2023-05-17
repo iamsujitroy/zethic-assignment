@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Brands from "./components/Brands/Brands";
 import Explore from "./components/Explore/Explore";
 import ScheduleCall from "./components/ScheduleCall/ScheduleCall";
+import Projects from "./components/Projects/Projects";
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
           <Brands />
           <Explore />
           <ScheduleCall />
+          <Projects/>
         </Layout>
       </div>
     </BrowserRouter>
