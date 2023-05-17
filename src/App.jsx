@@ -3,6 +3,7 @@ import Layout from "./layouts/layout";
 import Hero from "./components/Hero/Hero";
 import Brands from "./components/Brands/Brands";
 import Explore from "./components/Explore/Explore";
+import ScheduleCall from "./components/ScheduleCall/ScheduleCall";
 function App() {
   return (
     <BrowserRouter>
@@ -10,7 +11,8 @@ function App() {
         <Layout>
           <Hero />
           <Brands />
-          <Explore/>
+          <Explore />
+          <ScheduleCall />
         </Layout>
       </div>
     </BrowserRouter>

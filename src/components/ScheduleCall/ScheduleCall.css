@@ -1,0 +1,71 @@
+.schedule-call {
+  margin-bottom: 137px;
+}
+.schedule-call-wrapper {
+  max-width: var(--max-width);
+  height: 360px;
+  margin: auto;
+  background: var(--light-color);
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+}
+.big-circle {
+  width: 1023.13px;
+  height: 1023.13px;
+  border-radius: 50%;
+  border: 1px solid hsla(245, 100%, 67%, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.small-circle {
+  width: 528.2px;
+  height: 528.2px;
+  border-radius: 50%;
+  border: 1px solid hsla(245, 100%, 67%, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.schedule-call-container {
+  width: 762px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.schedule-call-container h2 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0;
+  margin-top: 73px;
+  margin-bottom: 59px;
+}
+.schedule-call-container button {
+  background: #fe6d3f;
+  border-radius: 10.6994px;
+  font-weight: 600;
+  font-size: 21.3988px;
+  line-height: 28px;
+  color: #efefef;
+  padding: 20px 30px;
+  border: none;
+  text-align: center;
+}
+
+.schedule-call-icon1{
+  position: absolute;
+  top: 95px;
+  left: 148px;
+}
+.schedule-call-icon2{
+  position: absolute;
+  top: 204.7px;
+  right: 79px;
+
+}
